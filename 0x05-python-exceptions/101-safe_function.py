@@ -6,4 +6,4 @@ def safe_function(fct, *args):
     except Exception as error:
         import sys
         print("Exception: {}".format(error), file=sys.stderr)
-        return Nonet add .
+        return None 
